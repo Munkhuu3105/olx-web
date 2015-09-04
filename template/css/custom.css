@@ -330,15 +330,27 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .category-left-list {padding: 15px 0px 35px;background-color:#f8f8f8;}
 .category-left-list h3 {font-size: 15px;line-height: 18px;padding: 9px 20px;font-weight: 400;}
 .category-left-list ul {padding: 0px 0px 15px 0px;font-size: 15px;line-height: 18px;}
-.category-left-list ul li {margin: 0px 20px;}
+.category-left-list ul li {position: relative; margin: 0px 20px;}
 .category-left-list ul li a {display: block;color: #2965be;padding: 9px 0px;}
 .category-left-list ul li a:hover {color: #f70;}
 .category-left-list ul li:first-child {border-bottom: 1px solid #e6e6e6;-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);-moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);margin-bottom: 7px;}
 .category-left-list ul li:first-child a {padding-top: 0px;}
-.category-left-list ul li.active {background: #ffffff;border: 1px solid #dedede;border-right: 0px; color: #000;-webkit-border-radius: 5px 0px 0px 5px;border-radius: 5px 0px 0px 5px;margin: 0 0 0 -10px;padding-left: 27px;}
+.category-left-list ul li.active {background: #ffffff;border: 1px solid #e1e1e1;border-right: 0px; color: #000;-webkit-border-radius: 5px 0px 0px 5px;border-radius: 5px 0px 0px 5px;margin: 0 0 0 -10px;padding-left: 27px;}
+.category-left-list ul li.active:after {position: absolute;right: -15px;top: -1px;content: ' ';width: 17px;height: 38px;background: url(../img/cat-arw-act.png) no-repeat ;}
+.category-main {padding: 15px;}
+.changeloc-box {background-color: #FBFAAE;padding: 12px 15px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.changeloc-box-inr {font-size: 17px;line-height: 20px;color: #336DBE;color: #000;font-weight: bold;}
+.changeloc-box-inr i {font-size: 22px;margin-right: 10px;}
+.changeloc-box-inr a {color: #336DBE;}
+.changeloc-box-inr a:hover {color: #f70;}
+.changeloc-box-inr span{color: #414141;font-weight: 400;font-size: 12px;padding-left: 5px;}
 
+.selectedcat-box {float: left;width: 98%;padding: 15px 0;margin: 0 10px;border-bottom: 1px solid #d5d5d5;}
+.image-box {float: left;width: 150px;height: 80px;margin-right: 15px; background-color: #f0f0f0;border: 1px solid #828282;}
+.selectedcat-box h3 {font-size: 20px;font-weight: 400;line-height: 30px;}
+.selectedcat-box b {display: block; font-size: 14px;font-weight: 400;}
+.selectedcat-box a {font-size: 15px;line-height: 25px;}
 
-.category-main {padding: 0;}
 
 /*======= /Footer==========*/
 
