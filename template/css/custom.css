@@ -309,7 +309,20 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .change-password-box .form-control:focus {box-shadow: 0px 5px 0px 10px #f3f3f3;-webkit-box-shadow: 0px 5px 0px 10px #f3f3f3;border-color:#F3F3F3; }
 .change-password-box .btn-login {margin-left: 33%;margin-top: 10px;}
 
+
+.forget-password-box p {padding: 15px;}
+.forget-password-box .custom-field-wrap {text-align: center;margin-bottom: 10px;}
+.forget-password-box .custom-field-wrap label {float: none;display: block; margin: 0px auto 5px auto;width: 55%;text-align: left;}
+.forget-password-box .custom-field-wrap input {float: none;display: block; margin: 0px auto 5px auto;}
+.forget-password-box .form-control:focus {box-shadow: 0px 0px 0px 5px #f3f3f3;-webkit-box-shadow: 0px 0px 0px 5px #f3f3f3;border-color:#F3F3F3; }
+.forget-password-box .login-button-btm  a {display: block; width: 200px; text-align: center;margin: 0px auto 10px auto;}
+
+
+
 .asterisk {color: #C91414;}
+
+
+
 
 /*=====--Category---=====*/
 
@@ -322,7 +335,7 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .category-left-list ul li a:hover {color: #f70;}
 .category-left-list ul li:first-child {border-bottom: 1px solid #e6e6e6;-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);-moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);margin-bottom: 7px;}
 .category-left-list ul li:first-child a {padding-top: 0px;}
-.category-left-list ul li.active {background: #ffffff;border: 1px solid #dedede;color: #000;-webkit-border-radius: 5px 0px 0px 5px;border-radius: 5px 0px 0px 5px;margin: 0 0 0 -10px;padding-left: 27px;}
+.category-left-list ul li.active {background: #ffffff;border: 1px solid #dedede;border-right: 0px; color: #000;-webkit-border-radius: 5px 0px 0px 5px;border-radius: 5px 0px 0px 5px;margin: 0 0 0 -10px;padding-left: 27px;}
 
 
 .category-main {padding: 0;}
