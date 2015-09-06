@@ -257,10 +257,12 @@ background-color:#ffa454;
 .panel-info {border: 0px;}
 .panel-body {border: 1px solid #e3e3e3;-webkit-border-radius: 4px 4px 0px 0px;-moz-border-radius:4px 4px 0px 0px;border-radius:4px 4px 0px 0px;}
 .custom-field-wrap {width: 100%;padding: 10px 0;}
-.custom-field-wrap label, .custom-field-wrap input {float: left;}
+.custom-field-wrap label, .custom-field-wrap input, .custom-field-wrap textarea{float: left;}
 .custom-field-wrap label {width: 20%;margin:5px 12px 0 0; text-align: right;color: #000;font-weight: 400;}
 .custom-field-wrap input {width: 55% !important;height: 30px;border-radius: 0px;border: 1px solid #818080;border-right-color: #efede8;border-bottom-color: #efede8;}
+.custom-field-wrap textarea {width: 55% !important;border-radius: 0px;border: 1px solid #818080;border-right-color: #efede8;border-bottom-color: #efede8;}
 .form-control:focus {box-shadow: 0px 0px 0px 10px #f3f3f3;-webkit-box-shadow: 0px 0px 0px 10px #f3f3f3;border-color:#F3F3F3; }
+
 .checkbox-main {margin:0px 0 10px 23%;font-size: 17px;font-weight: 400;line-height: 20px;}
 
 .custom-field-wrap span {position: absolute;left: 31%;top:38px;z-index: 999;font-size: 12px;}
@@ -356,6 +358,44 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .subcat-img {float:none;margin: 0 auto; display: block; width: 80px;height: 80px;background-color: yellow;border: 1px solid #000;}
 
 
+.submitad-wrap {padding: 0px 0px 50px 0px;}
+.submitad-main {}
+.submitad-main .custom-field-wrap {padding:5px 0px;}
+.submitad-main .custom-field-wrap label {width: 25%;}
+.submitad-main .custom-field-wrap input, .submitad-main .custom-field-wrap textarea {width: 72% !important;}
+.submitad-main .form-control:focus {box-shadow: none;border: 1px solid #818080;}
+.adpost-offer {position: relative;}
+.adpost-offer-inr {margin-top:125px;width: 100%; min-height: 300px; background-color: yellow;padding:10px;border: 1px solid #000; font-size:14px;line-height: 20px;}
+.adpost-offer-inr h4 {margin-bottom: 15px;font-size: 15px;}
+
+.custom-file-input-wrap {display: inline-block;width: 72%;}
+
+.submitad-main .custom-field-wrap .custom-file-input {display: inline-block; width: 25% !important;height: 45px; border: 0px;}
+
+.submitad-main .custom-field-wrap .custom-file-input:focus {outline: 0px;}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  width: 100%;
+  height: 40px;
+  content: '';
+  background: url(../img/pic-upload.png) no-repeat center 0;
+  background-color: #fff;
+  display: inline-block;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+/*.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}*/
+
 /*======= /Footer==========*/
 
 footer {float: left; width: 100%;}
@@ -450,7 +490,7 @@ ul.nav {text-align: center;}
 .navbar-form .form-control {display: block;width: 100% !important;margin-bottom: 15px;}
 .btn-hdr-search, .btn-hdr-search:hover {margin-bottom: 15px;}
 
-.custom-field-wrap label, .custom-field-wrap input {text-align: left; width: 100% !important;}
+.custom-field-wrap label, .custom-field-wrap input, .custom-field-wrap textarea  {text-align: left; width: 100% !important;}
 .custom-field-wrap span, .change-password-box .custom-field-wrap span {top: 65px;left: 0px;}
 .register-box-rt {border-left: 0px;padding: 15px;margin-top: 15px;border-top: 1px solid #e3e3e3;}
 .change-password-box .panel-body {padding: 15px;}
