@@ -16,7 +16,6 @@ input {border:0 none;}
 
 a:focus, a:visited, a:active, input:active, input:focus, select:focus, img:focus, img, area, map, *:focus{outline:none; outline-width:0px; ie-dummy:expression(this.hideFocus=true);}
 a, a:focus, a:hover{text-decoration:none;}
-
 .top-ad-box {	
 	padding: 40px 0;
 	background: url(../img/ad-bg-img.png) repeat 0 0;
@@ -345,11 +344,16 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .changeloc-box-inr a:hover {color: #f70;}
 .changeloc-box-inr span{color: #414141;font-weight: 400;font-size: 12px;padding-left: 5px;}
 
-.selectedcat-box {float: left;width: 98%;padding: 15px 0;margin: 0 10px;border-bottom: 1px solid #d5d5d5;}
+.selectedcat-box {float: left;width: 98%;padding: 15px 0;margin: 0 10px;border-bottom: 1px solid #d5d5d5;margin-bottom: 15px;}
 .image-box {float: left;width: 150px;height: 80px;margin-right: 15px; background-color: #f0f0f0;border: 1px solid #828282;}
 .selectedcat-box h3 {font-size: 20px;font-weight: 400;line-height: 30px;}
 .selectedcat-box b {display: block; font-size: 14px;font-weight: 400;}
 .selectedcat-box a {font-size: 15px;line-height: 25px;}
+
+.subcat-box ul li {float:left;width: 20%; padding: 5px;text-align: center;font-size: 15px;border: 2px solid #fff;border-radius: 4px;}
+.subcat-box ul li:hover {border: 2px solid #6794d7;}
+.subcat-box ul li a, .subcat-box ul li a:hover {color: #2965be;}
+.subcat-img {float:none;margin: 0 auto; display: block; width: 80px;height: 80px;background-color: yellow;border: 1px solid #000;}
 
 
 /*======= /Footer==========*/
