@@ -404,10 +404,15 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .contact-field-wrap input {height: 30px;}
 .contact-field-wrap .form-control:focus {box-shadow: none;border: 1px solid #818080;}
 
-.contact-dtl-main .btn-submit-ad {float: right;margin: 10px 0px;}
-.contact-dtl-main .tos-box {float: left;width: 100%; text-align: right;}
+.submit-ad-button-box {float: left;width: 100%;}
+.submit-ad-button-box .btn-submit-ad {float: right;margin: 10px 0px;}
+.submit-ad-button-box .tos-box {float: left;width: 100%; text-align: right;}
 
 .contact-dtl-user-img {float: left;width:120px;height: 120px; background-color: #ffeee0;border: 1px solid #818080;overflow: hidden;}
+
+.submitad-job-wrap .custom-field-wrap label {width: 32%;}
+.submitad-job-wrap .custom-field-wrap input, .submitad-job-wrap .custom-field-wrap textarea, .submitad-job-wrap select, .submitad-job-wrap .custom-file-input-wrap {width:65% !important; }
+
 /*======= /Footer==========*/
 
 footer {float: left; width: 100%;}
