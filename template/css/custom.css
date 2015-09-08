@@ -29,6 +29,8 @@ a, a:focus, a:hover{text-decoration:none;}
 /*=======GlobaL Styling==========*/
 header {float: left;width: 100%;}
 
+.glb-wrap {padding: 30px 0px;}
+
 .navbar-logo {
 	float: left;
 	width: 275px;
@@ -174,6 +176,7 @@ background-color:#ffa454;
 
 .ads-vr-right {left: auto;right: 0px;}
 /*======= /GlobaL Styling==========*/
+
 
 .hm-wrap {
 
@@ -412,6 +415,13 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 
 .submitad-job-wrap .custom-field-wrap label {width: 32%;}
 .submitad-job-wrap .custom-field-wrap input, .submitad-job-wrap .custom-field-wrap textarea, .submitad-job-wrap select, .submitad-job-wrap .custom-file-input-wrap {width:65% !important; }
+
+
+.adpost-box {border: 1px solid #818080;text-align: center;padding: 20px 15px;min-height: 275px;}
+.adpost-box h2 {font-size: 22px;line-height: 30px;margin-bottom: 25px;}
+.adpost-box ul {margin-top: 25px;text-align: left;}
+.adpost-box ul li i {font-size: 20px; color: #11900A;margin-right: 10px;}
+
 
 /*======= /Footer==========*/
 
