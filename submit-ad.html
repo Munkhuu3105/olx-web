@@ -9,8 +9,6 @@
 
     <!-- Bootstrap -->
     <link href="template/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Lightbox Styling -->
-    <link href="template/css/bootstrap-lightbox.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="template/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom Font Family -->
@@ -79,7 +77,7 @@
 
             <div class="input-group custom-field-wrap">
               <label>Category<b class="asterisk">*</b></label>
-              <input type="text" class="form-control" value="" placeholder="">
+              <input data-toggle="modal" data-target="#category_box" type="text" class="form-control" value="" placeholder="">
             </div><!-- /custom-field-wrap-->
 
             <div class="input-group custom-field-wrap">
@@ -142,6 +140,54 @@
       </div>
       <!-- /container-->
    </section>
+    <!-- Modal -->
+    <div id="category_box" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Categories Selection</h4>
+          </div>
+          <div class="category-box-inr">
+            <aside class="col-lg-3 col-md-3 col-sm-3 col-xs-12 category-left-list">
+              <h3>Main Categories</h3>
+              <ul>
+                <li class=""><a href="">All Ads</a></li>
+                <li class="active"><a href="">Property</a></li>
+                <li class=""><a href="">Industry</a></li>
+                <li class=""><a href="">Vehicle</a></li>
+                <li class=""><a href="">Motorcycle</a></li>
+                <li class=""><a href="">Boat</a></li>
+                <li class=""><a href="">Jobs</a></li>
+                <li class=""><a href="">Restaurents</a></li>
+                <li class=""><a href="">Travel</a></li>
+<!--                 <li class=""><a href="">Education</a></li>
+                <li class=""><a href="">Directory</a></li> 
+                <li class=""><a href="">Shop</a></li> 
+                <li class=""><a href="">Mall</a></li>
+                <li class=""><a href="">Samfunn</a></li> 
+                <li class=""><a href="">For Sale</a></li> 
+                <li class=""><a href="">Offering</a></li> 
+                <li class=""><a href="">Bid/Auction</a></li> -->
+              </ul>  
+            </aside>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 category-main">
+              <div id="" class="selectedcat-box">
+                <div class="image-box"></div>
+                <h3>Lorem ipsum dolor sit amet</h3>
+              </div>
+            </div>
+          </div>
+<!--           <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div> -->
+        </div>
+
+      </div><!-- /Modal content-->
+    </div><!-- /Modal -->
+
 
    <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-dtl-wrap">
       <div class="container">

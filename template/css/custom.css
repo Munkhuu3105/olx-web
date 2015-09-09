@@ -326,7 +326,7 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .asterisk {color: #C91414;}
 
 
-
+.panel-title h2 {text-align: center;}
 
 /*=====--Category---=====*/
 
@@ -348,6 +348,10 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .changeloc-box-inr a {color: #336DBE;}
 .changeloc-box-inr a:hover {color: #f70;}
 .changeloc-box-inr span{color: #414141;font-weight: 400;font-size: 12px;padding-left: 5px;}
+
+/*=====--Category Box Popup---=====*/
+.category-box-inr {float: left;width: 100%;background-color: #fff;}
+
 
 .selectedcat-box {float: left;width: 98%;padding: 15px 0;margin: 0 10px;border-bottom: 1px solid #d5d5d5;margin-bottom: 15px;}
 .image-box {float: left;width: 150px;height: 80px;margin-right: 15px; background-color: #f0f0f0;border: 1px solid #828282;}
