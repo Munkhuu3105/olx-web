@@ -66,7 +66,8 @@
 
 <main>
    <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 submitad-wrap">
-      <div class="container">
+      <div class="container submitad-main-outer">
+      <h4 class="form-ttl">Ad Details</h4>
         <form role="form">
          <div class="col-md-7 col-md-offset-2 col-sm-7 col-sm-offset-2 submitad-main">
 
@@ -137,61 +138,8 @@
           </div><!-- /adpost-offer-inr-->
         </div><!-- /adpost-offer-->
       </form>
-      </div>
-      <!-- /container-->
-   </section>
-    <!-- Modal -->
-    <div id="category_box" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Categories Selection</h4>
-          </div>
-          <div class="category-box-inr">
-            <aside class="col-lg-3 col-md-3 col-sm-3 col-xs-12 category-left-list">
-              <h3>Main Categories</h3>
-              <ul>
-                <li class=""><a href="">All Ads</a></li>
-                <li class="active"><a href="">Property</a></li>
-                <li class=""><a href="">Industry</a></li>
-                <li class=""><a href="">Vehicle</a></li>
-                <li class=""><a href="">Motorcycle</a></li>
-                <li class=""><a href="">Boat</a></li>
-                <li class=""><a href="">Jobs</a></li>
-                <li class=""><a href="">Restaurents</a></li>
-                <li class=""><a href="">Travel</a></li>
-<!--                 <li class=""><a href="">Education</a></li>
-                <li class=""><a href="">Directory</a></li> 
-                <li class=""><a href="">Shop</a></li> 
-                <li class=""><a href="">Mall</a></li>
-                <li class=""><a href="">Samfunn</a></li> 
-                <li class=""><a href="">For Sale</a></li> 
-                <li class=""><a href="">Offering</a></li> 
-                <li class=""><a href="">Bid/Auction</a></li> -->
-              </ul>  
-            </aside>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 category-main">
-              <div id="" class="selectedcat-box">
-                <div class="image-box"></div>
-                <h3>Lorem ipsum dolor sit amet</h3>
-              </div>
-            </div>
-          </div>
-<!--           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div> -->
-        </div>
-
-      </div><!-- /Modal content-->
-    </div><!-- /Modal -->
-
-
-   <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-dtl-wrap">
-      <div class="container">
-        <h4>Contact Details</h4>
+      <h4 class="form-ttl">Contact Details</h4>
+      <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-dtl-wrap">
         <form role="form">
          <div class="col-md-7 col-md-offset-2 col-sm-7 col-sm-offset-2 contact-dtl-main">
 
@@ -264,20 +212,123 @@
                  By clicking "Submit", you accept our <a href="#">Terms of Use and conditions</a>
               </div>
             </div>
+           </div><!-- /contact-dtl-main-->
+
+          <div class="col-md-3 col-sm-3 contact-dtl-right">
+            <div class="contact-dtl-user-img">
+            </div><!-- /contact-dtl-user-img-->
+          </div><!-- /contact-dtl-right-->
+        </form>
+     </section>
 
 
-         </div><!-- /contact-dtl-main-->
-
-        <div class="col-md-3 col-sm-3 contact-dtl-right">
-          <div class="contact-dtl-user-img">
-          </div><!-- /contact-dtl-user-img-->
-        </div><!-- /contact-dtl-right-->
-
-
-      </form>
       </div>
       <!-- /container-->
    </section>
+    <!-- Modal -->
+    <div id="category_box" class="modal fade custom-modal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Categories Selection</h4>
+          </div>
+          <div class="category-box-inr">
+            <aside class="col-lg-3 col-md-3 col-sm-3 col-xs-12 category-left-list">
+              <ul>
+                <li class=""><a href="">All Ads</a></li>
+                <li class="active"><a href="">Property</a></li>
+                <li class=""><a href="">Industry</a></li>
+                <li class=""><a href="">Vehicle</a></li>
+                <li class=""><a href="">Motorcycle</a></li>
+                <li class=""><a href="">Boat</a></li>
+                <li class=""><a href="">Jobs</a></li>
+                <li class=""><a href="">Restaurents</a></li>
+                <li class=""><a href="">Travel</a></li>
+                <li class=""><a href="">Education</a></li>
+                <li class=""><a href="">Directory</a></li> 
+                <li class=""><a href="">Shop</a></li> 
+                <li class=""><a href="">Mall</a></li>
+                <li class=""><a href="">Samfunn</a></li> 
+                <li class=""><a href="">For Sale</a></li> 
+                <li class=""><a href="">Offering</a></li> 
+                <li class=""><a href="">Bid/Auction</a></li>
+              </ul>  
+            </aside>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 category-main">
+              <div id="" class="selectedcat-box">
+                <div class="image-box"></div>
+                <h3>Lorem ipsum dolor sit amet</h3>
+              </div>
+            </div>
+
+            <div class="category-col-left">
+              <h3>Rent</h3>
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr --> 
+
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr --> 
+
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr --> 
+
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr --> 
+
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr -->               
+
+            </div><!--/category-col-left -->
+            <div class="category-col-right">
+              <h3>Sale</h3>
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr --> 
+
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr --> 
+
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr --> 
+
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr --> 
+
+              <div class="category-col-inr">
+                <div class="image-box-small"></div>
+                <h4>Lorem ipsum dolor</h4>
+              </div><!--/category-col-inr -->  
+            </div><!--/category-col-right -->
+
+
+          </div>
+<!--           <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div> -->
+        </div>
+
+      </div><!-- /Modal content-->
+    </div><!-- /Modal -->
 
    <!-- Ads Boxes -->
    <div class="ads-vr-left">Space Available For Ad</div>
