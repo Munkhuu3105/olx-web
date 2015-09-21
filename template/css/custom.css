@@ -450,6 +450,32 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .category-col-inr {float: left;width: 100%;margin-bottom: 10px;padding-right: 10px;}
 .category-col-inr h4 {font-size:16px;line-height: 24px;}
 .image-box-small {float: left;width: 60px;height: 60px;margin: 0 10px; background-color: #f0f0f0;border: 1px solid #e1e1e1;overflow: hidden;}
+
+/*=========== Account Setting page ==========*/
+.account-settings-wrap h2 {font-size: 20px;line-height: 30px;} 
+.account-settings-wrap p {font-size: 13px;line-height: 20px; color: #a5a5a5;}
+.account-settings-wrap .card {margin-top: 20px;}
+.account-settings-wrap .nav-tabs>li>a:hover {background-color: transparent;border-color: transparent;color: #a4b502;}
+.account-settings-wrap .nav-tabs {border-bottom: 0px;}
+.account-settings-wrap .panel-group {margin-top: 20px;}
+.account-settings-wrap .panel-default {background-color: #F3F3F3;border-radius: 0px;border-color: #f3f3f3;}
+.account-settings-wrap .panel-default>.panel-heading+.panel-collapse>.panel-body {border-color: #f3f3f3;}
+.account-settings-wrap .tab-content {border: 1px solid #e3e3e3;padding: 0px 10px;}
+.account-settings-wrap .panel-body {background-color: #fff;border-radius: 0px;border: 0px;}
+.account-settings-wrap .panel-title {font-size: 20px;color: #2965be;font-weight: 200;}
+
+.setting-select-box {padding-bottom: 25px;border-bottom: 1px solid #e1e1e1;}
+
+.setting-input-group {width: 100%; margin-bottom: 15px;}
+.setting-input-group .form-control {border-radius: 0px;box-shadow: none}
+.setting-input-group .form-control:focus {border-color:#ccc}
+.setting-input-group input, .setting-input-group label, .setting-input-group select {width: 50% !important;}
+.setting-input-group label {display: block; margin: 0;font-weight: 400;}
+
+.setting-input-group .checkbox input, .setting-input-group .checkbox label {display: inline-block !important;}
+
+#deleteaccount {text-align: center;}
+#deleteaccount a {margin: 30px 0;}
 /*======= /Footer==========*/
 
 footer {float: left; width: 100%;}
