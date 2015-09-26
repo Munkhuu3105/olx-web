@@ -455,15 +455,30 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .account-settings-wrap h2 {font-size: 20px;line-height: 30px;} 
 .account-settings-wrap p {font-size: 13px;line-height: 20px; color: #a5a5a5;}
 .account-settings-wrap .card {margin-top: 20px;}
-.account-settings-wrap .nav-tabs>li>a:hover {background-color: transparent;border-color: transparent;color: #a4b502;}
 .account-settings-wrap .nav-tabs {border-bottom: 0px;}
-.account-settings-wrap .panel-group {margin-top: 20px;}
+.account-settings-wrap .nav-tabs>li>a:hover {background-color: transparent;border-color: transparent; color: #a4b502;}
+.account-settings-wrap .nav-tabs>li.active>a:hover {border-bottom-color: #fff;color: #000;}
+.account-settings-wrap .nav-tabs>li.active>a {border:1px solid #e3e3e3;border-bottom-color: transparent;border-radius: 0px;color: #000;}
+
 .account-settings-wrap .panel-default {background-color: #F3F3F3;border-radius: 0px;border-color: #f3f3f3;}
+.account-settings-wrap .panel-group .panel+.panel {margin-top: 20px;}
 .account-settings-wrap .panel-default>.panel-heading+.panel-collapse>.panel-body {border-color: #f3f3f3;}
-.account-settings-wrap .tab-content {border: 1px solid #e3e3e3;padding: 0px 10px;}
 .account-settings-wrap .panel-body {background-color: #fff;border-radius: 0px;border: 0px;}
 .account-settings-wrap .panel-title {font-size: 20px;color: #2965be;font-weight: 200;}
 
+.account-ads-wrap, .account-msg-wrap, .account-set-wrap {min-height: 380px; border: 1px solid #e3e3e3;}
+
+/*======= account-ads ==========*/
+.account-ads-nav {border-bottom: 1px solid #d1d1d1;padding: 10px 15px;}
+.account-ads-nav ul {float: left;width: 70%;margin-top: 10px;}
+.account-ads-nav ul li {display: inline-block;padding: 0 15px;border-right: 1px solid #d1d1d1;}
+.account-ads-nav ul li:first-child {padding-left: 0px;}
+.account-ads-nav ul li:last-child {border-right: 0px;}
+.account-ads-nav ul li a {}
+.account-msg-search .form-control {float: right; width: 30%;}
+
+/*======= account-set ==========*/
+.account-set-wrap {padding: 20px 10px;}
 .setting-select-box {padding-bottom: 25px;border-bottom: 1px solid #e1e1e1;}
 
 .setting-input-group {width: 100%; margin-bottom: 15px;}
@@ -476,6 +491,11 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 
 #deleteaccount {text-align: center;}
 #deleteaccount a {margin: 30px 0;}
+
+/*======= account-msg ==========*/
+.account-msg-wrap {padding: 20px;}
+
+
 /*======= /Footer==========*/
 
 footer {float: left; width: 100%;}

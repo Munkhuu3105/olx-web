@@ -71,18 +71,28 @@
     <!-- Nav tabs -->
     <div class="card">
       <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation"><a href="#ads" aria-controls="ads" role="tab" data-toggle="tab">Ads</a></li>
+          <li role="presentation" class="active"><a href="#ads" aria-controls="ads" role="tab" data-toggle="tab">Ads</a></li>
           <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-          <li role="presentation" class="active"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
       </ul>
 
       <!-- Tab panes -->
       <div class="tab-content">
-        <div role="tabpanel" class="tab-pane" id="profile">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div><!-- /Tab panes -->
+        <div class="tab-pane account-ads-wrap active" role="tabpanel" id="ads">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 account-ads-nav">
+            <ul>
+              <li>Active</li>
+              <li>Inactive</li>
+            </ul>
+            <form class="account-msg-search" role="search"><input type="text" class="form-control" placeholder="Search"></form>
+          </div>
+          <div class="account-ads-main"></div>
 
-        <div role="tabpanel" class="tab-pane" id="messages">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div><!-- /Tab panes -->
+        </div><!-- /Tab panes -->
 
-        <div role="tabpanel" class="tab-pane active" id="settings">
+        <div class="tab-pane account-msg-wrap" role="tabpanel" id="messages">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div><!-- /Tab panes -->
+
+        <div class="tab-pane account-set-wrap" role="tabpanel" id="settings">
           <div class="panel-group" id="accordion">
               <div class="panel panel-default">
                   <div class="panel-heading">
