@@ -87,11 +87,64 @@
             <form class="account-msg-search" role="search"><input type="text" class="form-control" placeholder="Search"></form>
           </div>
           <div class="account-ads-main">
-            <div class="account-ads-blank">
-              <span><img src="../../../template/img/no-ads-img.png"></span>
+            <!-- account-ads-blank -->
+            <div style="display:none;" class="account-ads-blank">
+              <span><img src="template/img/no-ads-img.png"></span>
               <p>You don't have active Ads. Place an ad now!</p>
-              <a class="btn-submit-ad" href="#">Submit an Ad</a>
+              <a class="btn-submit-ad" href="#"> <i class="fa fa-plus"></i> Submit an Ad</a>
             </div>
+            <!-- /account-ads-blank -->
+
+            <!-- table-responsive -->
+            <h3>Active Ads</h3>
+            <div class="table-ads-wrap">
+              <div class="table-responsive">
+                <table class="table table-bordred table-striped">
+                  <thead>
+
+                    <th><input type="checkbox" id="checkall" /></th>
+                    <th>Date</th>
+                    <th>Ad Title</th>
+                    <th>Price</th>
+                    <th>Messages</th>
+                    <th>Status</th>
+
+                  </thead>
+
+                  <tbody>
+
+                  <tr>
+                    <td><input type="checkbox" class="checkthis" /></td>
+                    <td>From: 8 Aug <br>To: 7 Sep</td>
+                    <td>DELL Laptop 5010</td>
+                    <td>Rs 15,000</td>
+                    <td><a href="#" class="btn btn-tbl-status"><i class="fa fa-envelope"></i>2</a></td>
+                    <td><a href="#" class="btn btn-tbl-status"><i class="fa fa-arrow-up"></i> Activate Ad</a></td>
+                  </tr>
+
+                  <tr>
+                    <td><input type="checkbox" class="checkthis" /></td>
+                    <td>From: 8 Aug <br>To: 7 Sep</td>
+                    <td>DELL Laptop 5010</td>
+                    <td>Rs 15,000</td>
+                    <td><a href="#" class="btn btn-tbl-status"><i class="fa fa-envelope"></i>2</a></td>
+                    <td><a href="#" class="btn btn-tbl-status"><i class="fa fa-arrow-up"></i> Activate Ad</a></td>
+                  </tr>
+
+                  <tr>
+                    <td><input type="checkbox" class="checkthis" /></td>
+                    <td>From: 8 Aug <br>To: 7 Sep</td>
+                    <td>DELL Laptop 5010</td>
+                    <td>Rs 15,000</td>
+                    <td><a href="#" class="btn btn-tbl-status"><i class="fa fa-envelope"></i>2</a></td>
+                    <td><a href="#" class="btn btn-tbl-status"><i class="fa fa-arrow-up"></i> Activate Ad</a></td>
+                  </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- /table-responsive -->
           </div>
 
         </div><!-- /Tab panes -->

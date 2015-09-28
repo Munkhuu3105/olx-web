@@ -481,7 +481,18 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .account-msg-search .form-control {float: right; width: 30%;background:url(../img/sprite-hm.png) no-repeat 97% 5px;border-radius: 0px;border: 1px solid #818080;border-right-color: #efede8; border-bottom-color: #efede8;}
 .account-msg-search .form-control:focus {box-shadow: none;border: 1px solid #818080;}
 
-.account-ads-blank {text-align: center;color: #b2b2b2;font-size: 17px; line-height: 24px;}
+.account-ads-blank {float: left;width: 100%; text-align: center;color: #b2b2b2;}
+.account-ads-blank span {display: block; margin: 60px 0 20px 0;}
+.account-ads-blank p {font-size: 17px; line-height: 24px;}
+.account-ads-blank a {margin-top: 5px;display: inline-block;}
+
+
+.account-ads-main h3{float: left;width: 100%;font-size: 20px;margin: 0;padding: 10px;color: #979797;background: #fafafa; }
+.table-ads-wrap {float: left;width: 100%; }
+
+.btn-tbl-status {color: #fff;border: 1px solid #2965be;background-color: #2965be;-webkit-box-shadow: 0px 0px 0px 2px #fff;-moz-box-shadow: 0px 0px 0px 2px #fff;
+    box-shadow: 0px 0px 0px 2px #fff;font-size: 14px;height: 28px;line-height: 28px;padding: 0 12px;}
+.btn-tbl-status i {padding-right: 10px;}
 
 /*======= account-set ==========*/
 .account-set-wrap {padding: 20px 10px;}
