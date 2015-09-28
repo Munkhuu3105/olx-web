@@ -471,11 +471,17 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 /*======= account-ads ==========*/
 .account-ads-nav {border-bottom: 1px solid #d1d1d1;padding: 10px 15px;}
 .account-ads-nav ul {float: left;width: 70%;margin-top: 10px;}
-.account-ads-nav ul li {display: inline-block;padding: 0 15px;border-right: 1px solid #d1d1d1;}
+.account-ads-nav ul li {position: relative; display: inline-block;padding: 0 15px;border-right: 1px solid #d1d1d1;}
+.account-ads-nav ul li a {color: #000;}
+.account-ads-nav ul li a:hover {color: #a4b502;}
 .account-ads-nav ul li:first-child {padding-left: 0px;}
 .account-ads-nav ul li:last-child {border-right: 0px;}
-.account-ads-nav ul li a {}
-.account-msg-search .form-control {float: right; width: 30%;}
+.account-ads-nav ul li.active-tab a, .account-ads-nav ul li.active-tab a:hover {color: #2965be;}
+.account-ads-nav ul li.active-tab::after {position: absolute; left: -5px; bottom: -27px; content: ''; height: 25px; width: 100%;background:url(../img/drop-down.png) no-repeat center center;}
+.account-msg-search .form-control {float: right; width: 30%;background:url(../img/sprite-hm.png) no-repeat 97% 5px;border-radius: 0px;border: 1px solid #818080;border-right-color: #efede8; border-bottom-color: #efede8;}
+.account-msg-search .form-control:focus {box-shadow: none;border: 1px solid #818080;}
+
+.account-ads-blank {text-align: center;color: #b2b2b2;font-size: 17px; line-height: 24px;}
 
 /*======= account-set ==========*/
 .account-set-wrap {padding: 20px 10px;}
@@ -494,6 +500,8 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 
 /*======= account-msg ==========*/
 .account-msg-wrap {padding: 20px;}
+
+
 
 
 /*======= /Footer==========*/

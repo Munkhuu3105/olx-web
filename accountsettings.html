@@ -81,12 +81,18 @@
         <div class="tab-pane account-ads-wrap active" role="tabpanel" id="ads">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 account-ads-nav">
             <ul>
-              <li>Active</li>
-              <li>Inactive</li>
+              <li class="active-tab"><a href="javascript:void(0);"> Active (5)</a></li>
+              <li><a href="javascript:void(0);"> Inactive</a></li>
             </ul>
             <form class="account-msg-search" role="search"><input type="text" class="form-control" placeholder="Search"></form>
           </div>
-          <div class="account-ads-main"></div>
+          <div class="account-ads-main">
+            <div class="account-ads-blank">
+              <span><img src="../../../template/img/no-ads-img.png"></span>
+              <p>You don't have active Ads. Place an ad now!</p>
+              <a class="btn-submit-ad" href="#">Submit an Ad</a>
+            </div>
+          </div>
 
         </div><!-- /Tab panes -->
 
