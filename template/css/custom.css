@@ -466,7 +466,7 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .account-settings-wrap .panel-body {background-color: #fff;border-radius: 0px;border: 0px;}
 .account-settings-wrap .panel-title {font-size: 20px;color: #2965be;font-weight: 200;}
 
-.account-ads-wrap, .account-msg-wrap, .account-set-wrap {min-height: 380px; border: 1px solid #e3e3e3;}
+.account-ads-wrap, .account-msg-wrap, .account-set-wrap {float: left;width: 100%; min-height: 380px; border: 1px solid #e3e3e3;}
 
 /*======= account-ads ==========*/
 .account-ads-nav {border-bottom: 1px solid #d1d1d1;padding: 10px 15px;}
@@ -489,10 +489,25 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 
 .account-ads-main h3{float: left;width: 100%;font-size: 20px;margin: 0;padding: 10px;color: #979797;background: #fafafa; }
 .table-ads-wrap {float: left;width: 100%; }
+.table-ads-wrap .table {margin-bottom: -1px;}
+.table>thead>tr>th {border-bottom: 1px;border-top: 1px solid #f1f1f1 !important; font-weight: normal;}
+.table>thead>tr>th:nth-child(2), .table>thead>tr>th:nth-child(3) {color: #337ab7;}
+.table>thead>tr>th:nth-child(2):hover, .table>thead>tr>th:nth-child(3):hover {color: #a4b502;}
 
-.btn-tbl-status {color: #fff;border: 1px solid #2965be;background-color: #2965be;-webkit-box-shadow: 0px 0px 0px 2px #fff;-moz-box-shadow: 0px 0px 0px 2px #fff;
+.tbl-ad-dtl {max-width: 220px;}
+.tbl-ad-dtl span{display: block;}
+.tbl-ad-dtl a{display: inline;font-size: 15px;}
+.tbl-ad-dtl a i {font-size: 13px;color: #333;padding: 0px !important;}
+.tbl-ad-dtl a:hover{color: #a4b502;}
+.tbl-ad-dtl a.red, .tbl-ad-dtl a.red i {color: #cc0000;padding: 0 5px;}
+.tbl-ad-dtl a.red:hover, .tbl-ad-dtl a.red:hover i {background:#cc0000;color: #fff; }
+.btn-tbl-status, .btn-tbl-status:hover {color: #fff;border: 1px solid #2965be;background-color: #2965be;-webkit-box-shadow: 0px 0px 0px 2px #fff;-moz-box-shadow: 0px 0px 0px 2px #fff;
     box-shadow: 0px 0px 0px 2px #fff;font-size: 14px;height: 28px;line-height: 28px;padding: 0 12px;}
 .btn-tbl-status i {padding-right: 10px;}
+
+.ad-statistics-ttl, .ad-statistics-dtl {color: #727272;border-bottom: 1px solid #c8c8c8;padding-top: 4px !important;padding-bottom: 4px !important}
+.ad-statistics-ttl {text-align: right;border-right: 1px solid #c8c8c8;}
+.ad-statistics-dtl {text-align: left;}
 
 /*======= account-set ==========*/
 .account-set-wrap {padding: 20px 10px;}
