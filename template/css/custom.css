@@ -488,11 +488,10 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 
 
 .account-ads-main h3{float: left;width: 100%;font-size: 20px;margin: 0;padding: 10px;color: #979797;background: #fafafa; }
-.table-ads-wrap {float: left;width: 100%; }
-.table-ads-wrap .table {margin-bottom: -1px;}
-.table>thead>tr>th {border-bottom: 1px;border-top: 1px solid #f1f1f1 !important; font-weight: normal;}
-.table>thead>tr>th:nth-child(2), .table>thead>tr>th:nth-child(3) {color: #337ab7;}
-.table>thead>tr>th:nth-child(2):hover, .table>thead>tr>th:nth-child(3):hover {color: #a4b502;}
+.table-ads-wrap, .table-ads-msg-wrap {float: left;width: 100%; }
+.table-ads-wrap .table>thead>tr>th, .table-ads-msg-wrap .table>thead>tr>th {border-bottom: 1px;border-top: 1px solid #f1f1f1 !important; font-weight: normal;}
+.table-ads-wrap .table>thead>tr>th.sort-list, .table-ads-msg-wrap .table>thead>tr>th.sort-list {color: #337ab7;}
+.table-ads-wrap .table>thead>tr>th.sort-list:hover, .table-ads-msg-wrap .table>thead>tr>th.sort-list:hover{color: #a4b502;}
 
 .tbl-ad-dtl {max-width: 220px;}
 .tbl-ad-dtl span{display: block;}
@@ -525,9 +524,23 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 #deleteaccount a {margin: 30px 0;}
 
 /*======= account-msg ==========*/
-.account-msg-wrap {padding: 20px;}
-
-
+.account-msg-wrap {}
+.msg-sel-wrap, .msg-sel-wrap-small {float: left;background: #fafafa;padding-bottom: 15px;}
+.msg-sel-wrap {width: 70%;}
+.msg-sel-wrap-small {width: 30%;}
+.msg-sel-wrap label, .msg-sel-wrap-small label, .msg-sel-wrap select, .msg-sel-wrap-small select {display: inline;}
+.msg-sel-wrap label, .msg-sel-wrap-small label {font-size: 14px;font-weight: normal; color: #8a8a8a;padding: 0 10px;}
+.msg-sel-wrap select, .msg-sel-wrap-small select {width: 60%; padding: 4px 30px 3px 10px; border: 1px solid #858585; border-right: 1px solid #efede8; border-bottom: 1px solid #efede8;}
+.msg-sel-wrap-small select {width: 70%;}
+.msg-sel-wrap-small select option {width: 50%;}
+.table-ads-msg-wrap td {font-size: 14px; color: #a0a0a0;}
+td.ad-dtl-msg {max-width: 300px;}
+td.ads-msg-icon {max-width: 55px;}
+td.ad-msg-username {max-width: 100px;color: #525252;}
+td.ads-msg-icon a{font-size: 26px;color: #e1e1e1;margin-right: 5px;}
+td.ads-msg-icon a:hover{color: #337ab7;}
+.table-ads-msg-wrap td h4 {color: #525252;font-weight: 200;margin-bottom: 15px;}
+.table-ads-msg-wrap td:last-child {color: #525252;}
 
 
 /*======= /Footer==========*/

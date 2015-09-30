@@ -71,14 +71,14 @@
     <!-- Nav tabs -->
     <div class="card">
       <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#ads" aria-controls="ads" role="tab" data-toggle="tab">Ads</a></li>
-          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+          <li role="presentation"><a href="#ads" aria-controls="ads" role="tab" data-toggle="tab">Ads</a></li>
+          <li role="presentation" class="active"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
           <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
       </ul>
 
       <!-- Tab panes -->
       <div class="tab-content">
-        <div class="tab-pane account-ads-wrap active" role="tabpanel" id="ads">
+        <div class="tab-pane account-ads-wrap" role="tabpanel" id="ads">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 account-ads-nav">
             <ul>
               <li class="active-tab"><a href="javascript:void(0);"> Active (5)</a></li>
@@ -103,8 +103,8 @@
                   <thead>
 
                     <th><input type="checkbox" id="checkall" /></th>
-                    <th>Date <i class="fa fa-chevron-down"></i></th>
-                    <th>Ad Title</th>
+                    <th class="sort-list">Date <i class="fa fa-chevron-down"></i></th>
+                    <th class="sort-list">Ad Title</th>
                     <th>Price</th>
                     <th>Messages</th>
                     <th>Status</th>
@@ -199,7 +199,114 @@
 
         </div><!-- /Tab panes -->
 
-        <div class="tab-pane account-msg-wrap" role="tabpanel" id="messages">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div><!-- /Tab panes -->
+        <div class="tab-pane account-msg-wrap active" role="tabpanel" id="messages">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 account-ads-nav">
+            <ul>
+              <li class="active-tab"><a href="javascript:void(0);"> Inbox </a></li>
+              <li><a href="javascript:void(0);"> Sent</a></li>
+              <li><a href="javascript:void(0);"> archive</a></li>
+            </ul>
+            <form class="account-msg-search" role="search"><input type="text" class="form-control" placeholder="Search"></form>
+          </div>
+          <div class="account-ads-main">
+            <!-- account-ads-blank -->
+            <div style="display:none;" class="account-ads-blank">
+              <span><img src="template/img/no-ads-img.png"></span>
+              <p>You don't have active Ads. Place an ad now!</p>
+              <a class="btn-submit-ad" href="#"> <i class="fa fa-plus"></i> Submit an Ad</a>
+            </div>
+            <!-- /account-ads-blank -->
+
+            <!-- table-responsive -->
+            <h3>Received messages</h3>
+            <div class="input-group msg-sel-wrap">
+              <label>Show incoming messages for:</label>
+              <select class="">
+                <option>Choose</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+              </select>
+            </div><!-- /msg-sel-wrap-->
+            <div class="input-group msg-sel-wrap-small">
+              <label>Show:</label>
+              <select class="">
+                <option>Choose</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+                <option>Lorem ipsum dolor sit amet, consectetur</option>
+              </select>
+            </div><!-- /msg-sel-wrap-->
+            <div class="table-ads-msg-wrap">
+              <div class="table-responsive">
+                <table class="table table-bordred table-striped">
+                  <thead>
+
+                    <th><input type="checkbox" id="checkall" /></th>
+                    <th>&nbsp</th>
+                    <th>User</th>
+                    <th>Ad</th>
+                    <th class="sort-list">Date <i class="fa fa-chevron-down"></i></th>
+
+                  </thead>
+
+                  <tbody>
+
+                    <tr>
+                      <td><input type="checkbox" class="checkthis" /></td>
+                      <td class="ads-msg-icon">
+                        <a href="#" class=""><i class="fa fa-star-o"></i></a>
+                        <a href="#" class=""><i class="fa fa-trash-o"></i></a>
+                      </td>
+                      <td class="ad-msg-username">Lorem ipsum dolor</td>
+                      <td class="ad-dtl-msg">
+                        <h4>Lorem ipsum dolor sit amet,</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                      </td>
+                      <td>From: 8 Aug <br>To: 7 Sep</td>
+                    </tr>
+
+                    <tr>
+                      <td><input type="checkbox" class="checkthis" /></td>
+                      <td class="ads-msg-icon">
+                        <a href="#" class=""><i class="fa fa-star-o"></i></a>
+                        <a href="#" class=""><i class="fa fa-trash-o"></i></a>
+                      </td>
+                      <td class="ad-msg-username">Lorem ipsum dolor</td>
+                      <td class="ad-dtl-msg">
+                        <h4>Lorem ipsum dolor sit amet,</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                      </td>
+                      <td>From: 8 Aug <br>To: 7 Sep</td>
+                    </tr>
+
+
+                    <tr>
+                      <td><input type="checkbox" class="checkthis" /></td>
+                      <td class="ads-msg-icon">
+                        <a href="#" class=""><i class="fa fa-star-o"></i></a>
+                        <a href="#" class=""><i class="fa fa-trash-o"></i></a>
+                      </td>
+                      <td class="ad-msg-username">Lorem ipsum dolor</td>
+                      <td class="ad-dtl-msg">
+                        <h4>Lorem ipsum dolor sit amet,</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                      </td>
+                      <td>From: 8 Aug <br>To: 7 Sep</td>
+                    </tr>
+                  
+                  </tbody>  
+
+                </table>
+              </div>
+            </div>
+            <!-- /table-responsive -->
+          </div>
+        </div><!-- /Tab panes -->
 
         <div class="tab-pane account-set-wrap" role="tabpanel" id="settings">
           <div class="panel-group" id="accordion">
