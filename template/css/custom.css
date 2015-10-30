@@ -352,6 +352,26 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 
 .panel-title h2 {text-align: center;}
 
+/*=====-- Location Box Popup ---=====*/
+.location-modal {}
+.location-modal .modal-dialog {width: 800px;}
+.location-modal .modal-body, .location-modal .modal-header, .location-modal .modal-content {float: left; width: 100%;}
+.location-modal .modal-body {padding: 0;}
+.location-modal .modal-header {border-bottom: 0px;}
+.location-modal .modal-header button.close {margin-top: 8px;font-size: 36px;}
+.location-modal-search {background: #8156a3;padding: 8px 16px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.location-modal-search input {padding: 0px 12px 0px 30px;background: url(../img/sprite-hm.png) no-repeat 8px -68px;background-color: #fff;border-color: #fff;}
+.location-modal-search input:focus {box-shadow: none;}
+.popular-cities-box {padding: 15px; background: #f3f3f3;border-bottom: 1px solid #cccccc;}
+.popular-cities-box h4 {font-size: 11px;line-height: 16px;}
+.popular-cities-box ul li {display: inline-block;width: 24%;font-size: 11px;line-height: 16px;}
+.popular-cities-box ul li a:hover{color: #a4b502;}
+
+.regions-main {padding: 10px;}
+.regions-col h4 {padding-top: 10px;font-size: 16px;font-weight: bold;color: #a4b502;}
+.regions-col ul {padding: 10px 10px 10px 0;}
+.regions-col ul li a {font-size: 16px; line-height: 26px;}
+.regions-col ul li a:hover{color: #a4b502;}
 /*=====--Category---=====*/
 
 .category-wrap {padding: 0; border: 1px solid #ededed;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
@@ -434,7 +454,9 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 /*======------- Popup Custom Modal ------------==========*/
 
 .custom-modal {}
-.custom-modal .modal-content {border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0; -moz-border-radius: 6px 6px 0 0;}
+.custom-modal .modal-dialog {width: 800px;}
+.custom-modal .modal-header {float: left;width: 100%;}
+.custom-modal .modal-content {float: left;width: 100%;border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0; -moz-border-radius: 6px 6px 0 0;}
 .custom-modal .category-left-list {padding-bottom: 0px}
 .custom-modal .category-left-list ul li:first-child {border-bottom: 0px;margin-bottom: 0px;}
 .custom-modal .category-left-list ul li a {padding: 5px 0px;}
@@ -444,6 +466,15 @@ a.btn-login-fb {display: inline-block;height: 35px;width: 120px;border-color: #e
 .custom-modal .selectedcat-box {margin: 0px;padding: 15px;width: 100%;}
 .custom-modal .image-box {width:80px;  height: 80px;}
 
+.custom-modal2 .modal-title {padding: 0px 0px 0px 10px;}
+.custom-modal2 .modal-header .close {margin-right: 15px;margin-top: 0;}
+.custom-modal2 .modal-header {padding: 15px 0;}
+.custom-modal2 .modal-content{border: 7px solid #f1f1f1;border-radius: 0;-webkit-border-radius: 0;-moz-border-radius: 0;}
+.custom-modal2 .category-left-list {background-color: #fff;border-right:1px solid #dadada}
+.custom-modal2 .category-list-active {background-color: #f1f1f1;}
+.custom-modal2 .category-left-list ul li {margin: 0;padding-left: 10px;}
+.custom-modal2 .category-left-list ul li:first-child {border-bottom: 0;box-shadow: none;}
+.custom-modal2 .category-left-list ul li a i {padding-left: 7px;}
 .category-col-left, .category-col-right {float: left;width:37.5%;height: 100%;}
 .category-col-left {border-right: 1px solid #e1e1e1;}
 .category-col-left h3, .category-col-right h3 {text-align: center;padding:3px 0px;font-size: 22px;line-height: 30px;border-bottom: 1px solid #e1e1e1;margin-bottom: 5px;}
